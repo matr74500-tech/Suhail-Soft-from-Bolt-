@@ -1,0 +1,11 @@
+git clone https://github.com/matr74500-tech/Suhail-Soft-from-Bolt-.git
+cd Suhail-Soft-from-Bolt-
+
+find . -mindepth 1 \
+  -not -path './.git' \
+  -exec rm -rf {} +
+
+touch .gitkeep
+git add -A
+git commit -m "chore: Clear repository for fresh project upload"
+git push origin main
