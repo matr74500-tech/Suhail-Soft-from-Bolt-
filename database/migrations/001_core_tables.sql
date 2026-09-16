@@ -1,0 +1,1 @@
+-- Core tables migration
